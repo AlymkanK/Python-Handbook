@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from hard_python.main_app.models import Py_objects
+from .models import Py_objects
 
 
 def main_view(request):
